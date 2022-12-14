@@ -15,6 +15,8 @@ public class Mouse {
 		driver.get("https://www.facebook.com/");
 
 		driver.manage().window().maximize();
+		
+		driver.manage().window().minimize();
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
