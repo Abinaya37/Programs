@@ -37,6 +37,9 @@ public class Mouse {
 		Thread.sleep(2000);
 
 		js.executeScript("arguments[0].click()", login);
+		
+		driver.quit();
+		
 
 	}
 
