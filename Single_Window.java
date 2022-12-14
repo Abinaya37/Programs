@@ -22,7 +22,7 @@ public class Single_Window {
 
 		driver.manage().window().maximize();
 
-	//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
 		WebElement mobiles = driver.findElement(By.xpath("//a[text()='Mobiles']"));
 
@@ -57,8 +57,18 @@ public class Single_Window {
 				String currentUrl = driver.getCurrentUrl();
 				System.out.println(currentUrl);
 
+				
+				
 			}
 		}
+	
+	driver.quit();
 	}
+	
+	
+	
+	
+	
 
+	
 }
